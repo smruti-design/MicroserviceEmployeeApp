@@ -13,7 +13,7 @@ import java.util.Arrays;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-class MxApplicationTests {
+class MxApplicationTestsTestRestTemplate {
 
 	@Autowired
 	private TestRestTemplate restTemplate;
